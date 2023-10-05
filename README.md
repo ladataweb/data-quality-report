@@ -20,3 +20,7 @@ Data Quality Report is in public preview. The relase will let install the tool i
 ### How to use
 Open Power Bi Desktop and get data from the sources/tables you want to analyse. You need to get them in import mode. Then just go to "External Tools" in tab and open DataQualityReport.
 That will open a new Power Bi Desktop file with the analysis. Navigate it to understand the quality of your data.
+
+### Common issue
+We have received issues from some users that get an error while refreshing the data of the tool: 'The 'MSOLAP.8' provider is not registered on the local machine.'
+In that case you can get in the following link to install the missing provider: https://learn.microsoft.com/en-us/analysis-services/client-libraries?view=asallproducts-allversions&viewFallbackFrom=sql-server-2017
